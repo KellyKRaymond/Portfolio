@@ -6,15 +6,15 @@ import Projects from './components/Projects/Projects';
 import About from  './components/About/About';
 import Testimonials from  './components/Testimonials/Testimonials';
 import Contact from  './components/Contact/Contact';
-import {FaGithub} from 'react-icons/fa'
+
 
 function App(){
   return(
     <div className='App'>
       <NavBar />
       <div className='container'>
-        <LandingPage />
-        <About />
+        <LandingPage/>
+        <About/>
         <Projects/>
         <Testimonials/>
         <Contact/>

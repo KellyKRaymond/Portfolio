@@ -1,9 +1,12 @@
 import React from 'react';
+import './Testimonials.css'
+import CissyQuote from '../../assets/CissyQuote.png';
 
-export default function Testimonials(){
-  return <div className='page' id='Testimonials'>Testimonials</div>
+export default function Testimonials() {
+  return(
+  <div>
+    <div className='page' id='Testimonials'>Testimonials</div>
+    <img className='CissyQuote' id='cissyquote' src={CissyQuote.png}></img>
+  </div>
+  )
 }
-<div>
-<div> "Kelly was so helpful with my business, she was always willing to help and had such great ideas. So dependable and able to put my ideas into action -Cissy Rickett, Classy Cactus</div>
-<div> 'barb quote </div>
-</div>
