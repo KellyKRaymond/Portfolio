@@ -1,11 +1,15 @@
-.Calculator {
-    height: 250px;
-    width: 300px;
+.Game {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
     padding: 25px;
 }
 
-.Game {
-    height: 250px;
-    width: 300px;
+.Calculator {    
+    justify-content: cemter;
+    align-items: center;
+    width: 400px;
+    height: 350px;
     padding: 25px;
 }

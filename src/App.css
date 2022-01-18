@@ -55,3 +55,17 @@
     border: 3px solid rgb(13, 0, 128);
     width: 100%;
   }
+  
+  .Projects {
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(13, 0, 128);
+    width: 100%;
+  }

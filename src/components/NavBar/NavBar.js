@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import { Link } from "react-scroll";
-import reactLogo from '../../assets/reactLogo.png'
+import KrLogo from '../../assets/KrLogo.png'
 import { AiOutlineMenu, AiOutlineMenuUnfold } from 'react-icons/ai';
-
 
 export default function NavBar() {
 
@@ -14,7 +13,7 @@ export default function NavBar() {
         <>
         <nav className='navBar'>
             <Link className='navLogo navBarLi' to='landingPage' smooth={true}>
-                <img className='logo' src={reactLogo}></img>
+                <img className='KrLogo' src={KrLogo}></img>
             </Link>
             <div className='navBarText'>
                 <ul>
@@ -33,7 +32,7 @@ export default function NavBar() {
                     <Link className='navBarLi' to='contact' smooth={true}>
                         Contact
                     </Link>
-                    <a className='navBarLi resume' target='_blank' href='https://docs.google.com/document/d/1k7qVUuoE1_k2VHOObTzjq3KAvE3w9DsoCyovAu-NLd8/edit?usp=sharing'>
+                    <a className='navBarLi resume' target='_blank' href='https://docs.google.com/document/d/1lF_NAJkZH6sraEOzjNkpYSR_8awW6WhgCR8amzA4IAI/edit'>
                         Resume
                     </a>
                 </ul>
@@ -52,19 +51,19 @@ export default function NavBar() {
             <Link className='navBarLi' onClick={() => setClick(!click)} to='landingPage' smooth={true}>
                 Landing Page
             </Link>
-            <Link className='navBarLi' onClick={() => setClick(!click)} to='about' smooth={true}>
+            <Link className='navBarLi' onClick={() => setClick(!click)} to='About' smooth={true}>
                 About
             </Link>
-            <Link className='navBarLi' onClick={() => setClick(!click)} to='projects' smooth={true}>
+            <Link className='navBarLi' onClick={() => setClick(!click)} to='Projects' smooth={true}>
                 Projects
             </Link>
-            <Link className='navBarLi' onClick={() => setClick(!click)} to='testimonials' smooth={true}>
+            <Link className='navBarLi' onClick={() => setClick(!click)} to='Testimonials' smooth={true}>
                 Testimonials
             </Link>
             <Link className='navBarLi' onClick={() => setClick(!click)} to='contact' smooth={true}>
                 Contact
             </Link>
-            <a className='navBarLi resume' target='_blank' href='https://docs.google.com/document/d/1k7qVUuoE1_k2VHOObTzjq3KAvE3w9DsoCyovAu-NLd8/edit?usp=sharing'>
+            <a className='navBarLi resume' target='_blank' href='https://docs.google.com/document/d/1lF_NAJkZH6sraEOzjNkpYSR_8awW6WhgCR8amzA4IAI/edit'>
                 Resume
             </a>
         </ul> : null}

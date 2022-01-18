@@ -1,8 +1,12 @@
 
 #AboutIcons {
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
