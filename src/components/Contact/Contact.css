@@ -1,0 +1,20 @@
+
+
+.icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.linkedin {
+    padding: 10px;
+    color: navy
+}
+
+.github {
+    padding: 10px;
+    color: black;
+}
+

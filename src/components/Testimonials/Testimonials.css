@@ -1,5 +1,22 @@
+#testimonials {
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 .Cissy {
     width: 420px;
     height: 400px;
-    border: 1px white;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Barb {
+    width: 420px;
+    height: 400px;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
 }
