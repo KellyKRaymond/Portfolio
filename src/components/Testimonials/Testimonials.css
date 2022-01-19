@@ -1,22 +1,16 @@
-#testimonials {
-    align-items: center;
-    justify-content: center;
 
-}
-
-
-.Cissy {
+.test-image {
     width: 420px;
     height: 400px;
     padding: 10px;
-    justify-content: center;
-    flex-direction: row;
 }
 
-.Barb {
-    width: 420px;
-    height: 400px;
-    padding: 10px;
-    justify-content: center;
-    flex-direction: row;
+
+.testimonial-page h1 {
+    font-size: 60px;
+    color: black;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 30px;
+
 }

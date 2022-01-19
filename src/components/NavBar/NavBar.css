@@ -13,6 +13,7 @@
 }
 .navBarText{
   animation: slide-in .5s forwards;
+  color: white;
   -webkit-animation: slide-in .5s forwards;
   position: absolute; 
   right: 0px;

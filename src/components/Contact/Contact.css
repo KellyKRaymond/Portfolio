@@ -1,11 +1,15 @@
-
-
 .icons {
     font-size: 40px;
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 10px;
+
+}
+
+a:visited {
+    color:white
+}
+
+a:focus {
+    color: navy;
 }
 
 .linkedin {
@@ -18,3 +22,8 @@
     color: black;
 }
 
+.contact {
+    color: black;
+    margin-top: 75px;
+    
+}

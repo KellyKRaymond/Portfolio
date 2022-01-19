@@ -6,7 +6,7 @@
   
   body{
     background-color: rgba(8, 89, 100, 0.534);
-    color: white;
+    color: black;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -20,12 +20,11 @@
     padding: 10px;
   }
   .page{
-    min-height: 100vh;
-    display: flex;
+    text-align: center;
+    min-height: 80vh;
     align-items: center;
-    justify-content: center;
-    border: 3px solid black;
     width: 100%;
+    margin: auto;
   }
 
   .contact {
@@ -38,13 +37,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(13, 0, 128);
     width: 100%;
   }
 
   .Testimonials {
     font-size: 30px;
-    color: white;
     font-family: 'Times New Roman', Times, serif;
     min-height: 100vh;
     margin: 5px;
@@ -52,7 +49,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgb(13, 0, 128);
     width: 100%;
   }
   
@@ -64,8 +60,5 @@
     margin: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid rgb(13, 0, 128);
     width: 100%;
   }

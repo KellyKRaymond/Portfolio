@@ -1,12 +1,13 @@
+.about {
+    margin-top: 100px;
+}
 
 #AboutIcons {
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin-top: 45px;
 }
 
 .premierepro {
@@ -56,17 +57,18 @@
 
 .youtube {
     padding: 5px;
-    color: darkred
+    color: darkred;
+    font-size: larger;
 }
 
-.textbox {
+.about-textbox {
     text-align: center;
-    margin: 10px;
-    width: 500px;
-    height: 200px;
+    width: 850px;
     color: black;
     background-color: rgba(255, 255, 255, 0.301);
     border: solid 3px rgb(0, 0, 0);
     font-size: 12px;
+    margin: auto;
+    margin-bottom: 45px;
+    padding: 10px;
 }
-
