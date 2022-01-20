@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaAws} from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaShopify } from 'react-icons/fa';
 import { SiAdobepremierepro } from 'react-icons/si';
@@ -21,6 +22,7 @@ function About() {
         </div>
         <h1>Programs I am familar with </h1>
         <div id='AboutIcons'>
+          <div className='AWS'> <FaAws> </FaAws></div>
           <div className='premierepro'> <SiAdobepremierepro /></div>
           <div className='photoshop'> <SiAdobephotoshop /></div>
           <div className='canva'> <SiCanva /></div>
@@ -31,6 +33,7 @@ function About() {
           <div className='react'> <SiReact /> </div>
           <div className='shopify'> <FaShopify /> </div>
           <div className='youtube'> <ImYoutube2 /></div>
+          
         </div>
       </div>
     </div>
